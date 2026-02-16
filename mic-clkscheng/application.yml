@@ -3,4 +3,4 @@ spring:
     name: search-engine
   data:
     mongodb:
-      uri: mongodb+srv://user:password@cluster0.t1dlzpz.mongodb.net/Search_engine
+      uri: mongodb+srv://dagal_db_user:U9P6BEribBisLCEF@cluster0.t1dlzpz.mongodb.net/Search_engine

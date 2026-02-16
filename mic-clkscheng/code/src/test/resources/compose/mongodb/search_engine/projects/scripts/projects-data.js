@@ -1,7 +1,7 @@
 db = db.getSiblingDB('search_engine');
 
-db.projects.drop()
-db.projects.insertMany([
+db.project.drop()
+db.project.insertMany([
     {
         name: "Sistema de Gestión de Inventarios",
         description: "Una plataforma para controlar stock en tiempo real.",
@@ -45,5 +45,5 @@ const indexProject = {
         }
     }
 };
-db.projects.createSearchIndex("dyn_idx0", indexProject)
+db.project.createSearchIndex("dyn_idx0", indexProject)
 

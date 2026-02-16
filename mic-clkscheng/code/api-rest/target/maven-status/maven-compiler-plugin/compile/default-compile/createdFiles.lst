@@ -1,0 +1,3 @@
+com\ciklum\cklscheng\apirest\entity\dto\ProjectSearchResponseDTO.class
+com\ciklum\cklscheng\apirest\controller\SearchProjectsController.class
+com\ciklum\cklscheng\apirest\entity\dto\ProjectSearchResponseWrapperDTO.class
