@@ -1,0 +1,9 @@
+com\ciklum\cklscheng\infrastructure\builder\SearchCompoundCriteria.class
+com\ciklum\cklscheng\infrastructure\entity\BaseProject.class
+com\ciklum\cklscheng\infrastructure\repository\GenericAggregationRepository.class
+com\ciklum\cklscheng\infrastructure\builder\Operator.class
+com\ciklum\cklscheng\infrastructure\service\CompoundSearchService.class
+com\ciklum\cklscheng\infrastructure\mapper\ProjectMapper.class
+com\ciklum\cklscheng\infrastructure\repository\ProjectSearchCompoundRepositoryImpl.class
+com\ciklum\cklscheng\infrastructure\mapper\ProjectMapperImpl.class
+com\ciklum\cklscheng\infrastructure\builder\SortCriteria.class

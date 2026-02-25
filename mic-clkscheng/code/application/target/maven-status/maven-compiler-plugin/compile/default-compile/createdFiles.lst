@@ -1,1 +1,3 @@
 com\ciklum\cklscheng\application\usecase\formatter\QueryFormatter.class
+com\ciklum\cklscheng\application\usecase\formatter\DefaultQueryFormatter.class
+com\ciklum\cklscheng\application\usecase\SearchProjectUseCaseImpl.class

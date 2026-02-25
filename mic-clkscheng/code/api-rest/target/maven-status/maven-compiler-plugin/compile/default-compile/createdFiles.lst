@@ -1,3 +1,9 @@
-com\ciklum\cklscheng\apirest\entity\dto\ProjectSearchResponseDTO.class
-com\ciklum\cklscheng\apirest\controller\SearchProjectsController.class
+com\ciklum\cklscheng\apirest\entity\dto\ProjectSearchRequestDTO.class
 com\ciklum\cklscheng\apirest\entity\dto\ProjectSearchResponseWrapperDTO.class
+com\ciklum\cklscheng\apirest\mapper\ResponseRestMapper.class
+com\ciklum\cklscheng\apirest\mapper\ResponseRestMapperImpl.class
+com\ciklum\cklscheng\apirest\service\SearchProjectService.class
+com\ciklum\cklscheng\apirest\validator\SearchRequestValidator.class
+com\ciklum\cklscheng\apirest\controller\SearchProjectsController.class
+com\ciklum\cklscheng\apirest\controller\AbstractSearchController.class
+com\ciklum\cklscheng\apirest\entity\dto\ProjectSearchResponseDTO.class

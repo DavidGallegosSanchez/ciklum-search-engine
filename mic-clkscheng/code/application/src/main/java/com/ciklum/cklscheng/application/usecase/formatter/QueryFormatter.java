@@ -1,7 +1,7 @@
 package com.ciklum.cklscheng.application.usecase.formatter;
 
 
-import com.ciklum.clkscheng.domain.filter.BaseProjectQuerySearch;
+import com.ciklum.cklscheng.domain.filter.BaseProjectQuerySearch;
 
 /**
  * Interface for query formatters following the Chain of Responsibility pattern. Each formatter transforms a

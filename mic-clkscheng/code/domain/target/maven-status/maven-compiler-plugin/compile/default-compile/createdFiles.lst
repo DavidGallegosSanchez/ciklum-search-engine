@@ -1,0 +1,7 @@
+com\ciklum\cklscheng\domain\filter\BaseProjectQuerySearch.class
+com\ciklum\cklscheng\domain\filter\BaseProjectQuerySearch$BaseProjectQuerySearchBuilderImpl.class
+com\ciklum\cklscheng\domain\filter\QueryPagination.class
+com\ciklum\cklscheng\domain\filter\BaseProjectQuerySearch$BaseProjectQuerySearchBuilder.class
+com\ciklum\cklscheng\domain\repository\ProjectSearchRepository.class
+com\ciklum\cklscheng\domain\entity\Project.class
+com\ciklum\cklscheng\domain\usecase\SearchProjectsUseCase.class

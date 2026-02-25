@@ -1,6 +1,6 @@
 package com.ciklum.cklscheng.application.usecase.formatter;
 
-import com.ciklum.clkscheng.domain.filter.BaseProjectQuerySearch;
+import com.ciklum.cklscheng.domain.filter.BaseProjectQuerySearch;
 import org.springframework.stereotype.Component;
 
 @Component

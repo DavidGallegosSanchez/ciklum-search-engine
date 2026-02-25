@@ -1,4 +1,5 @@
-C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\clkscheng\domain\usecase\SearchProjectsUseCase.java
-C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\clkscheng\domain\repository\ProjectSearchRepository.java
-C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\clkscheng\domain\filter\BaseProjectQuerySearch.java
-C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\clkscheng\domain\entity\Project.java
+C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\cklscheng\domain\usecase\SearchProjectsUseCase.java
+C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\cklscheng\domain\entity\Project.java
+C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\cklscheng\domain\filter\BaseProjectQuerySearch.java
+C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\cklscheng\domain\filter\QueryPagination.java
+C:\Users\dagal\Documents\Projects\ciklum-search-engine\mic-clkscheng\code\domain\src\main\java\com\ciklum\cklscheng\domain\repository\ProjectSearchRepository.java

@@ -25,6 +25,11 @@
             <artifactId>application</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.ciklum</groupId>
+            <artifactId>infrastructure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,8 +1,7 @@
 package com.ciklum.cklscheng.apirest.controller;
 
 import com.ciklum.cklscheng.apirest.validator.SearchRequestValidator;
-import com.ciklum.clkscheng.domain.filter.BaseProjectQuerySearch;
-import lombok.AllArgsConstructor;
+import com.ciklum.cklscheng.domain.filter.BaseProjectQuerySearch;
 
 import java.util.List;
 
