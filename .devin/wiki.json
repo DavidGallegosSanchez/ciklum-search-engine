@@ -1,0 +1,154 @@
+{
+  "repo_notes": [
+    {
+      "content": " "
+    }
+  ],
+  "pages": [
+    {
+      "title": "Overview",
+      "purpose": "High-level introduction to the ciklum-search-engine project: what it does, its technology stack, and how the modules fit together. Links to child pages for architecture details and getting started.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Getting Started",
+      "purpose": "Step-by-step guide for setting up the development environment: prerequisites (Java 23, Maven, MongoDB), building the project with Maven Wrapper, running locally, and Docker Compose setup for MongoDB.",
+      "parent": "Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Project Structure and Build System",
+      "purpose": "Explains the multi-module Maven layout (api-rest, application, domain, infrastructure, boot), the root POM, shared dependency management, and how Lombok and MapStruct annotation processors are configured across all modules.",
+      "parent": "Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Architecture",
+      "purpose": "Overview of the hexagonal / clean architecture pattern used in the project, showing how the five modules (domain, application, api-rest, infrastructure, boot) relate to each other and the direction of dependencies. Links to child pages for each layer.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Domain Layer",
+      "purpose": "Detailed coverage of the domain module: the Project entity, the BaseProjectQuerySearch filter with its builder, QueryPagination cursor-based pagination, the SearchProjectsUseCase interface, and the ProjectSearchRepository port.",
+      "parent": "Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Application Layer",
+      "purpose": "Covers the application module: SearchProjectUseCaseImpl orchestration logic, the QueryFormatter chain-of-responsibility interface, and DefaultQueryFormatter. Explains how the use case formats queries and delegates to the repository port.",
+      "parent": "Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure Layer",
+      "purpose": "Covers the infrastructure module: MongoDB persistence via ProjectSearchCompoundRepositoryImpl and GenericAggregationRepository, the CompoundSearchService that builds Atlas Search compound queries, the builder types (SearchCompoundCriteria, SortCriteria, Operator enum), the BaseProject MongoDB document entity, and the MapStruct ProjectMapper.",
+      "parent": "Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "REST API Layer",
+      "purpose": "Overview of the api-rest module: how HTTP requests enter the system, the controller-service-validator pipeline, and the DTO contract. Links to child pages for the controller, DTOs, and validation.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Controllers and Request Pipeline",
+      "purpose": "Detailed explanation of SearchProjectsController (POST /v1/projects), AbstractSearchController generic base class (template method pattern), and how the validate → buildQuerySearch → use-case execution pipeline works.",
+      "parent": "REST API Layer",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Service Orchestration and DTOs",
+      "purpose": "Covers SearchProjectService: how it validates the request, maps ProjectSearchRequestDTO to BaseProjectQuerySearch, invokes SearchProjectsUseCase, and transforms the List<Project> result into ProjectSearchResponseWrapperDTO. Also documents all DTO classes and the ResponseRestMapper.",
+      "parent": "REST API Layer",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Validation",
+      "purpose": "Explains the SearchRequestValidator<T> interface (extending Spring Validator), how validators are injected into AbstractSearchController as a list, and the pluggable strategy pattern that allows adding new validation rules without modifying controller logic.",
+      "parent": "REST API Layer",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Data Storage and MongoDB Integration",
+      "purpose": "Overview of how the service connects to MongoDB (Atlas and local Docker), the Search_engine database, and the Atlas Search index. Links to child pages for configuration and the search index setup.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Configuration and Connection",
+      "purpose": "Documents the application.yml MongoDB URI (Atlas SRV connection string), the Search_engine database, local Docker Compose MongoDB setup, replica set configuration for local development, and security considerations around hardcoded credentials.",
+      "parent": "Data Storage and MongoDB Integration",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Atlas Search Index and Seed Data",
+      "purpose": "Explains the dyn_idx0 Atlas Search index definition (autocomplete on name, token/string on tags), the JavaScript seed scripts that create the index and insert sample project documents, and how the infrastructure layer uses the index for compound search queries.",
+      "parent": "Data Storage and MongoDB Integration",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Glossary",
+      "purpose": "Definitions of all codebase-specific terms, abbreviations, design patterns, and domain concepts used throughout the search-engine project. Each entry includes file/class pointers for quick navigation.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
